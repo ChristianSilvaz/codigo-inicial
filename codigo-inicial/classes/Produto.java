@@ -2,9 +2,9 @@ package classes;
 
 public class Produto {
   private int codigo;
-    private String nome;
-    private double valor;
-    private int quantidadeEstoque;
+  private String nome;
+  private double valor;
+  private int quantidadeEstoque;
 
     public Produto(int codigo, String nome, double valor, int quantidadeEstoque) {
         this.codigo = codigo;
