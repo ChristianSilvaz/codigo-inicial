@@ -10,7 +10,10 @@ public class App {
         Scanner scanner = new Scanner(System.in);
 
         int opcao = -1;
-
+       
+        // cadastre produtos de preferencia com nome espelho, estojo ou algo com o mesmo numero de letras pra ajudar seu aluno a deixar o programa bonitinho kkkk
+        
+        
         while (opcao != 0) {
             exibirMenu();
 
@@ -41,7 +44,7 @@ public class App {
                         System.out.println("Opção inválida! Por favor, escolha uma opção válida.");
                         break;
                 }
-            } catch (InputMismatchException e) {
+            } catch (InputMismatchException pato) {
                 System.out.println("Opção inválida! Por favor, escolha uma opção válida.");
                 scanner.nextLine(); 
             }
