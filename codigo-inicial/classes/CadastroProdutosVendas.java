@@ -201,8 +201,10 @@ public void vendasPorPeriodoDetalhado(Scanner scanner) {
             int quantidade = venda.getQuantidadeVendida();
             double valorUnitario = venda.getProdutoVendido().getValor();    
             double valorTotal = venda.getValorTotal();
-                valorTotal = venda.getProdutoVendido().getValor() * venda.getQuantidadeVendida();
-                System.out.println(dataFormatada + "\t " + produtoNome + "\t " + quantidade + "\t\t" + valorUnitario + "\t\t" + valorTotal);
+            valorTotal = venda.getProdutoVendido().getValor() * venda.getQuantidadeVendida();
+            
+            
+            System.out.println(dataFormatada + "\t " + produtoNome + "\t " + quantidade + "\t\t" + valorUnitario + "\t\t" + valorTotal);
         }
     }
 
